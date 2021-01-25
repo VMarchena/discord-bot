@@ -1,7 +1,7 @@
 const ytdl = require("discord-ytdl-core");
 
 module.exports = {
-  play(connection, url, onFinish = function () {}, seek = 0) {
+  play(connection, url, onFinish = function () {}, seek = 0, timeout = 0 ) {
     let stream = ytdl(url, {
       filter: "audioonly",
       opusEncoded: true,
@@ -13,6 +13,12 @@ module.exports = {
       type: "opus",
     });
 
+    if (timeout > 0) {
+      setTimeout(() => {
+        connection.dispatcher.end();
+      }, timeout);
+    }
+    
     dispatcher.on("finish", () => {
       onFinish();
       connection.disconnect();
