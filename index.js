@@ -28,13 +28,7 @@ client.on("message", async (message) => {
   const args = message.content.slice(prefix.length).trim().split(/ +/);
   const command = args.shift().toLowerCase();
 
-  if (command === "ping") {
-    client.commands.get("ping").execute(message, args);
-  } else if (command === "fire") {
-    client.commands.get("fire").execute(message, args);
-  } else if (command === "jerequin") {
-    client.commands.get("jerequin").execute(message, args);
-  } else if (command === "drums") {
-    client.commands.get("drums").execute(message, args);
+  if (client.commands.has(command)) {
+    client.commands.get(command).execute(message, args);
   }
 });
