@@ -3,7 +3,7 @@ import { VoiceConnection } from "discord.js";
 
 const youtube =  {
   play(connection: VoiceConnection, url: string, onFinish = function () {}, seek = 0, timeout = 0 ) {
-    let stream = ytdl(url, {
+    const stream = ytdl(url, {
       filter: "audioonly",
       opusEncoded: true,
       seek,
