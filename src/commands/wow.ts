@@ -14,9 +14,9 @@ const wow: Command = {
         message.channel.send(`<:star_struck:814940099078783076>`);
       };
     
-      youtube.play(connection, "https://youtu.be/H_MmebNYXDs");
+      youtube.play(connection, "https://youtu.be/H_MmebNYXDs", onFinish);
     } else {
-      message.reply("You need to join a voice channel first!", onFinish);
+      message.reply("You need to join a voice channel first!");
     }
   },
 };
