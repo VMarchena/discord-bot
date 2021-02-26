@@ -9,9 +9,14 @@ const wow: Command = {
 
     if (channel) {
       const connection = await channel.join();
+    
+      const onFinish = () => {
+        message.channel.send(`<:star_struck:814940099078783076>`);
+      };
+    
       youtube.play(connection, "https://youtu.be/H_MmebNYXDs");
     } else {
-      message.reply("You need to join a voice channel first!");
+      message.reply("You need to join a voice channel first!", onFinish);
     }
   },
 };
