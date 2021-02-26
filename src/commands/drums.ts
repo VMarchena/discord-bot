@@ -1,10 +1,12 @@
-const youtube = require("../utils/youtubeUtils");
+import youtube from "../utils/youtubeUtils";
+import { Command } from '../ICommands';
 
-module.exports = {
+const drums: Command = {
   name: "drums",
   description: "Drums sound!",
   async execute(message, args) {
-    const { channel } = message.member.voice;
+    const channel = message.member?.voice.channel;
+
     if (channel) {
       const connection = await channel.join();
       const onFinish = () => {
@@ -14,5 +16,7 @@ module.exports = {
     } else {
       message.reply("You need to join a voice channel first!");
     }
-  },
+  }
 };
+
+module.exports = drums;

@@ -1,7 +1,8 @@
-const ytdl = require("discord-ytdl-core");
+import ytdl from "discord-ytdl-core";
+import { VoiceConnection } from "discord.js";
 
-module.exports = {
-  play(connection, url, onFinish = function () {}, seek = 0, timeout = 0 ) {
+const youtube =  {
+  play(connection: VoiceConnection, url: string, onFinish = function () {}, seek = 0, timeout = 0 ) {
     let stream = ytdl(url, {
       filter: "audioonly",
       opusEncoded: true,
@@ -25,3 +26,5 @@ module.exports = {
     });
   },
 };
+
+export default youtube;
