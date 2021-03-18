@@ -1,5 +1,5 @@
 import { Command } from "../ICommands";
-import youtube from "../utils/youtubeUtils";
+import fs from 'fs';
 
 const jerequin: Command = {
   name: "jerequin",
@@ -10,11 +10,12 @@ const jerequin: Command = {
     if (channel) {
       const connection = await channel.join();
 
-      const onFinish = () => {
-        message.channel.send(`<:eggplant:801908816895410196>`);
-      };
+      const dispatcher = connection.play(fs.createReadStream('src/sounds/jerequin.mp3'));
 
-      youtube.play(connection, "https://youtu.be/9-lorxvAeYc", onFinish, 318, 10000);
+      dispatcher.on("finish", () => {
+        message.channel.send(`<:eggplant:801908816895410196>`);
+        connection.disconnect();
+      });
     } else {
       message.reply("You need to join a voice channel first!");
     }
