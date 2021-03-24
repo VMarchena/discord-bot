@@ -1,7 +1,7 @@
 import { Command } from "../ICommands";
 import fs from 'fs';
 
-const respect: Command = {
+const cafe: Command = {
   name: "cafe",
   description: "Quero cafeeeee. Quero cafeeee.",
   async execute(message, args) {
@@ -21,4 +21,4 @@ const respect: Command = {
   },
 };
 
-module.exports = respect;
+module.exports = cafe;

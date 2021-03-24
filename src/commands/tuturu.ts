@@ -1,7 +1,7 @@
 import { Command } from "../ICommands";
 import fs from 'fs';
 
-const respect: Command = {
+const tuturu: Command = {
   name: "tuturu",
   description: "Steins;Gate Mayushii☆'s Tuturu sound.",
   async execute(message, args) {
@@ -21,4 +21,4 @@ const respect: Command = {
   },
 };
 
-module.exports = respect;
+module.exports = tuturu;
