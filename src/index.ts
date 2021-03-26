@@ -17,11 +17,11 @@ for (const file of commandFiles) {
   commands.set(command.name, command);
 }
 
-function outputHelp(message: any) {
-  var helpMessage: string = `Hello ${message.author}. These are the available commands:\n`;
+function outputHelp(message: Discord.Message) {
+  var helpMessage: string = `Hello <@${message.author.id}>. These are the available commands:\n`;
 
   commands.each((command: Command) => {
-    helpMessage += `- **${command.name}**: ${command.description}\n`;
+    helpMessage += `!**${command.name}**: ${command.description}\n`;
   });
 
   message.channel.send(helpMessage);
