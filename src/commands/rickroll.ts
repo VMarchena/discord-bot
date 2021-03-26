@@ -11,6 +11,7 @@ const rickroll: Command = {
       const connection = await channel.join();
 
       const dispatcher = connection.play(fs.createReadStream('src/sounds/rickroll.mp3'))
+      message.channel.send(`https://tenor.com/view/rick-astley-rick-roll-dancing-dance-moves-gif-14097983`);
 
       dispatcher.on("finish", () => {
         connection.disconnect();
