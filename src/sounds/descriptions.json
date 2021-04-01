@@ -35,11 +35,18 @@
   "gamecube": {
     "description": "Game Cube's intro sound"
   },
+  "getoverhere": {
+    "description": "Scorpion wins!",
+    "messageBefore": "https://tenor.com/view/mortal-kombat-scorpion-get-over-here-mk11-mortal-kombat11-gif-17129778"
+  },
   "help": {
     "description": "Help!"
   },
   "hojenao": {
     "description": "Hoje não! Hoje não! Hoje sim."
+  },
+  "imperial": {
+    "description": "Star Wars' Imperial March"
   },
   "jabulani": {
     "description": "Jabulaaaaaaaaaniiiiiiiii"
@@ -57,6 +64,9 @@
   "pergunta": {
     "description": "Question theme from Show do Milhão."
   },
+  "plantao": {
+    "description": "Globo's Plantão Urgente theme"
+  },
   "ps1": {
     "messageBefore": "https://tenor.com/view/playstation-sony-playstation1-playstation-startup-ps1-gif-18126838",
     "description": "Playstation one sound"
@@ -73,6 +83,9 @@
   },
   "sax": {
     "description": "Sexy sax sound"
+  },
+  "tapa": {
+    "description": "Brazilian Keanu Reeves' catch frase"
   },
   "timer": {
     "description": "Timer sound from Kaizen Boards."
