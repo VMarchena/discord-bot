@@ -30,6 +30,10 @@ function main() {
 
       commands.get(command)?.execute(message, args);
     }
+
+    if (command == 'random') {
+      commands.random().execute(message, args);
+    }
   });
 }
 
