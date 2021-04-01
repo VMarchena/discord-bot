@@ -3,12 +3,16 @@ import Discord from "discord.js";
 import { prefix } from "./config.json";
 import dotenv from "dotenv";
 import { Command } from "./ICommands";
+import { SimpleSoundCommand, SoundConfigs } from "./SimpleSoundCommand";
 dotenv.config();
+
+type Commands = Discord.Collection<string, Command>;
 
 function main() {
   const client = new Discord.Client();
   const commands = new Discord.Collection<string, Command>();
 
+  readSounds(commands);
   readCommands(commands);
   initializeClient(client);
 
@@ -29,14 +33,28 @@ function main() {
   });
 }
 
-function readCommands(commands: Discord.Collection<string, Command>) {
+function readSounds(commands: Commands) {
+  const descriptionsFilePath = './src/sounds/descriptions.json';
+  const descriptions = JSON.parse(fs.readFileSync(descriptionsFilePath).toString());
+
+  for (const [name, configs] of Object.entries<SoundConfigs>(descriptions)) {
+    const soundCommand = new SimpleSoundCommand(name, configs);
+    commands.set(name, soundCommand);
+  }
+}
+
+function readCommands(commands: Commands) {
   const commandFiles = fs
     .readdirSync("./src/commands")
     .filter((file) => file.endsWith(".ts"));
 
   for (const file of commandFiles) {
-    const command = require(`./commands/${file}`);
-    commands.set(command.name, command);
+    const command: Command = require(`./commands/${file}`);
+
+    // NOTE(erick): Add only commands that are not yet present
+    if (!commands.has(command.name)) {
+      commands.set(command.name, command);
+    }
   }
 }
 
@@ -53,7 +71,7 @@ function initializeClient(client: Discord.Client) {
   client.login(process.env.DISCORD_TOKEN);
 }
 
-function outputHelp(message: Discord.Message, commands: Discord.Collection<string, Command>) {
+function outputHelp(message: Discord.Message, commands: Commands) {
   var helpMessage: string = `Hello <@${message.author.id}>. These are the available commands:\n`;
 
   commands.each((command: Command) => {
