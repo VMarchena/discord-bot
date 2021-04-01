@@ -1,0 +1,95 @@
+{
+  "aplausos": {
+    "description": "Clap clap clap clap"
+  },
+  "barcelona": {
+    "description": "Goooool do Barcelona!"
+  },
+  "cafe": {
+    "description": "Quero cafeeeee. Quero cafeeee."
+  },
+  "celso": {
+    "description": "Celso. Oh Celso. Celsoooo."
+  },
+  "coffin": {
+    "description": "Coffin Dance Meme"
+  },
+  "developers": {
+    "description": "Steve Ballmer's emotional speech asking for developers to join development of apps to his new OS"
+  },
+  "dialup": {
+    "description": "sound of a dial up modem connecting to the Internet"
+  },
+  "downunder": {
+    "description": "I come from a land down under"
+  },
+  "errou": {
+    "description": "Que pena, você errou."
+  },
+  "f1": {
+    "description": "Globo's old F1 theme."
+  },
+  "fasterthanyou": {
+    "description": "Fernando is faster than you"
+  },
+  "gamecube": {
+    "description": "Game Cube's intro sound"
+  },
+  "help": {
+    "description": "Help!"
+  },
+  "hojenao": {
+    "description": "Hoje não! Hoje não! Hoje sim."
+  },
+  "jabulani": {
+    "description": "Jabulaaaaaaaaaniiiiiiiii"
+  },
+  "jerequin": {
+    "description": "Jerquin is br meme",
+    "messageAfter": ":eggplant:"
+  },
+  "lavem": {
+    "description": "La vem o Homem Macaco correndo atrás de mim..."
+  },
+  "metalgear": {
+    "description": "Metal Gear sound"
+  },
+  "pergunta": {
+    "description": "Question theme from Show do Milhão."
+  },
+  "ps1": {
+    "messageBefore": "https://tenor.com/view/playstation-sony-playstation1-playstation-startup-ps1-gif-18126838",
+    "description": "Playstation one sound"
+  },
+  "respect": {
+    "description": "GTA San Andreas respect sound (mission passed)"
+  },
+  "rickroll": {
+    "description": "Never gonna give you up. Never gonna let you down.",
+    "messageBefore": "https://tenor.com/view/rick-astley-rick-roll-dancing-dance-moves-gif-14097983"
+  },
+  "salvesalve": {
+    "description": "Salve, salve, família! - Classic Flow Podcast greeting"
+  },
+  "sax": {
+    "description": "Sexy sax sound"
+  },
+  "timer": {
+    "description": "Timer sound from Kaizen Boards."
+  },
+  "topgear": {
+    "description": "Top Gear theme song"
+  },
+  "tururu": {
+    "description": "Naruto - Sadness and Sorrow"
+  },
+  "tuturu": {
+    "description": "Steins;Gate Mayushii☆'s Tuturu sound."
+  },
+  "vaidarmerda": {
+    "description": "Vai dar merda, vai dar merda."
+  },
+  "windows": {
+    "description": "Windows XP error sound"
+  }
+}
