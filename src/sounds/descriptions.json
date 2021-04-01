@@ -84,6 +84,10 @@
   "sax": {
     "description": "Sexy sax sound"
   },
+  "sugada": {
+    "decription": "Dá uma sugada aqui na minha ...",
+    "messageBefore": "https://tenor.com/view/hi-hello-monster-inc-gif-17930105"
+  },
   "tapa": {
     "description": "Brazilian Keanu Reeves' catch frase"
   },
@@ -100,7 +104,8 @@
     "description": "Steins;Gate Mayushii☆'s Tuturu sound."
   },
   "vaidarmerda": {
-    "description": "Vai dar merda, vai dar merda."
+    "description": "Vai dar merda, vai dar merda.",
+    "messageAfter": ":poop:"
   },
   "windows": {
     "description": "Windows XP error sound"
