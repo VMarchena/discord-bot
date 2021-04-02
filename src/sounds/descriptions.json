@@ -1,12 +1,25 @@
 {
+  "acertou": {
+    "description": "Certa a resposta!"
+  },
   "aplausos": {
     "description": "Clap clap clap clap"
   },
   "barcelona": {
     "description": "Goooool do Barcelona!"
   },
+  "babyshark": {
+    "description": "The most dreaded sound in the world."
+  },
   "cafe": {
     "description": "Quero cafeeeee. Quero cafeeee."
+  },
+  "canoa": {
+    "description": "Se essa canôa não virar 🎵🎵🎶♬"
+  },
+  "cavalo": {
+    "description": "CAVAAALO.",
+    "messageAfter": "https://tenor.com/view/horse-cavalo-spin-meme-flip-gif-17331191"
   },
   "celso": {
     "description": "Celso. Oh Celso. Celsoooo."
@@ -55,17 +68,32 @@
     "description": "Jerquin is br meme",
     "messageAfter": ":eggplant:"
   },
+  "judite": {
+    "description": "Oi, eu gostaria de cancelar o meu telefone"
+  },
   "lavem": {
     "description": "La vem o Homem Macaco correndo atrás de mim..."
+  },
+  "metro": {
+    "description": "Metro Rio's soothing sound"
   },
   "metalgear": {
     "description": "Metal Gear sound"
   },
+  "pele": {
+    "description": "Teria sido melhor ir ver o filme do Pelé"
+  },
   "pergunta": {
     "description": "Question theme from Show do Milhão."
   },
+  "piao": {
+    "description": "Pião da Casa Própria"
+  },
   "plantao": {
     "description": "Globo's Plantão Urgente theme"
+  },
+  "possoperguntar": {
+    "description": "Silvio Santos questioning if you are completly sure of your answer."
   },
   "ps1": {
     "messageBefore": "https://tenor.com/view/playstation-sony-playstation1-playstation-startup-ps1-gif-18126838",
@@ -85,8 +113,11 @@
     "description": "Sexy sax sound"
   },
   "sugada": {
-    "decription": "Dá uma sugada aqui na minha ...",
+    "description": "Dá uma sugada aqui na minha ...",
     "messageBefore": "https://tenor.com/view/hi-hello-monster-inc-gif-17930105"
+  },
+  "tafeliz": {
+    "description": "Todo mundo tá feliz??!!??!?!?."
   },
   "tapa": {
     "description": "Brazilian Keanu Reeves' catch frase"
