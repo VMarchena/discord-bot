@@ -76,10 +76,19 @@ function initializeClient(client: Discord.Client) {
 }
 
 function outputHelp(message: Discord.Message, commands: Commands) {
+  const discordMaxMessageLength = 2000;
+
   var helpMessage: string = `Hello <@${message.author.id}>. These are the available commands:\n`;
 
   commands.each((command: Command) => {
-    helpMessage += `!**${command.name}**: ${command.description}\n`;
+    const line: string = `!**${command.name}**: ${command.description}\n`;
+
+    if (helpMessage.length + line.length > discordMaxMessageLength) {
+      message.channel.send(helpMessage);
+      helpMessage = '';
+    }
+
+    helpMessage += line;
   });
 
   message.channel.send(helpMessage);
