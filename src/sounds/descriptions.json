@@ -5,6 +5,9 @@
   "aplausos": {
     "description": "Clap clap clap clap"
   },
+  "banheira": {
+    "description": "Gugu's Bathtub theme song"
+  },
   "barcelona": {
     "description": "Goooool do Barcelona!"
   },
@@ -26,6 +29,9 @@
   },
   "coffin": {
     "description": "Coffin Dance Meme"
+  },
+  "countdown": {
+    "description": "It's the Final Countdown"
   },
   "developers": {
     "description": "Steve Ballmer's emotional speech asking for developers to join development of apps to his new OS"
@@ -86,6 +92,15 @@
   "mindthegap": {
     "description": "Metro Rio's annoucement"
   },
+  "naoconsegue": {
+    "description": "Não consegue né, Moises"
+  },
+  "ovo": {
+    "description": "É o carro do ovo passando na sua rua"
+  },
+  "paodequeijo": {
+    "description": "Isso é tudo que eu desejo"
+  },
   "pele": {
     "description": "Teria sido melhor ir ver o filme do Pelé"
   },
@@ -118,6 +133,9 @@
   "sax": {
     "description": "Sexy sax sound"
   },
+  "sonho": {
+    "description": "O sonho da vida de Bruno"
+  },
   "sugada": {
     "description": "Dá uma sugada aqui na minha ...",
     "messageBefore": "https://tenor.com/view/hi-hello-monster-inc-gif-17930105"
@@ -143,6 +161,9 @@
   "vaidarmerda": {
     "description": "Vai dar merda, vai dar merda.",
     "messageAfter": ":poop:"
+  },
+  "vassoureiro": {
+    "description": "Ó o vassoureiro"
   },
   "windows": {
     "description": "Windows XP error sound"
