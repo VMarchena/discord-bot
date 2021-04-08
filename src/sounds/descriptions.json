@@ -14,6 +14,9 @@
   "babyshark": {
     "description": "The most dreaded sound in the world."
   },
+  "braveheart": {
+    "description": "Show me your Brave Heart"
+  },
   "cafe": {
     "description": "Quero cafeeeee. Quero cafeeee."
   },
@@ -80,9 +83,13 @@
   "judite": {
     "description": "Oi, eu gostaria de cancelar o meu telefone"
   },
+  "lavamos": {
+    "description": "E lá vamos nós..."
+  },
   "lavem": {
     "description": "La vem o Homem Macaco correndo atrás de mim..."
   },
+
   "metro": {
     "description": "Metro Rio's soothing sound"
   },
@@ -109,6 +116,9 @@
   },
   "piao": {
     "description": "Pião da Casa Própria"
+  },
+  "pressentir": {
+    "description": "Posso pressentir o perigo e o caos"
   },
   "plantao": {
     "description": "Globo's Plantão Urgente theme"
