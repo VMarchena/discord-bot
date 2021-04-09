@@ -5,6 +5,9 @@
   "aplausos": {
     "description": "Clap clap clap clap"
   },
+  "ardiloso": {
+    "description": "O demônio é ardiloso"
+  },
   "banheira": {
     "description": "Gugu's Bathtub theme song"
   },
@@ -35,6 +38,9 @@
   },
   "countdown": {
     "description": "It's the Final Countdown"
+  },
+  "darkness": {
+    "description": "Hello darkness my old friend"
   },
   "developers": {
     "description": "Steve Ballmer's emotional speech asking for developers to join development of apps to his new OS"
@@ -130,12 +136,18 @@
     "messageBefore": "https://tenor.com/view/playstation-sony-playstation1-playstation-startup-ps1-gif-18126838",
     "description": "Playstation one sound"
   },
+  "quesusto": {
+    "description": "Que susto. Que susto. Que susto"
+  },
   "respect": {
     "description": "GTA San Andreas respect sound (mission passed)"
   },
   "rickroll": {
     "description": "Never gonna give you up. Never gonna let you down.",
     "messageBefore": "https://tenor.com/view/rick-astley-rick-roll-dancing-dance-moves-gif-14097983"
+  },
+  "rodolfo": {
+    "description": "Rodolfooooooo!!!!"
   },
   "salvesalve": {
     "description": "Salve, salve, família! - Classic Flow Podcast greeting"
@@ -145,6 +157,9 @@
   },
   "sonho": {
     "description": "O sonho da vida de Bruno"
+  },
+  "suasala": {
+    "description": "Next station, living room"
   },
   "sugada": {
     "description": "Dá uma sugada aqui na minha ...",
