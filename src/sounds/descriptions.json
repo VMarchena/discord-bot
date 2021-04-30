@@ -9,7 +9,8 @@
     "description": "O demônio é ardiloso"
   },
   "banheira": {
-    "description": "Gugu's Bathtub theme song"
+    "description": "Gugu's Bathtub theme song",
+    "messageAfter": ":soap:"
   },
   "barcelona": {
     "description": "Goooool do Barcelona!"
@@ -170,6 +171,9 @@
   },
   "tapa": {
     "description": "Brazilian Keanu Reeves' catch frase"
+  },
+  "theonewhoknocks": {
+    "description": "I am the one who knocks."
   },
   "timer": {
     "description": "Timer sound from Kaizen Boards."
